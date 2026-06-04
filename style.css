@@ -1,0 +1,46 @@
+
+        body { 
+            background-color: #f8f9fa; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .sidebar { 
+            background-color: #343a40; 
+            min-height: 100vh; 
+            padding-top: 20px;
+         }
+        .sidebar a { 
+            color: #cfd8dc; 
+            text-decoration: none; 
+            padding: 12px 20px; 
+            display: block; 
+            border-radius: 5px; 
+            margin: 5px 15px; 
+            font-weight: 500;
+         }
+        .sidebar a:hover, .sidebar a.active { 
+            background-color: #0d6efd; 
+            color: white; }
+        .content-section { 
+            display: none; 
+            padding: 30px; 
+            animation: fadeIn 0.5s; 
+        }
+        .content-section.active { 
+            display: block; 
+        }
+        .card { 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+            margin-bottom: 20px; 
+            border: none; }
+        .card-header { 
+            font-weight: bold; 
+            background-color: #e9ecef; 
+        }
+        @keyframes fadeIn { 
+            from { opacity: 0; } to { opacity: 1; } }
+        .math-result { 
+            font-family: monospace; 
+            background: #e8f4f8; 
+            padding: 15px; 
+            border-radius: 5px; 
+            border-left: 4px solid #0dcaf0; 
+        }
